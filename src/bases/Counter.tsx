@@ -13,7 +13,7 @@ export const Counter = ({ initialValue = 0 }: CounterProps) => {
 
   return (
     <div className="my-5">
-      <h2>Counter {count}</h2>
+      <h2 className="mb-3">Counter {count}</h2>
       <button className="btn btn-primary" onClick={handleClick}>
         +1
       </button>
