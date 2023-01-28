@@ -1,11 +1,13 @@
-import { useState } from 'react';
+import { Counter } from './bases/Counter';
+import { CounterBy } from './bases/CounterBy';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
+    <div className="my-5">
       <h1>Bases React TypeScript</h1>
+      <hr />
+      <Counter />
+      <CounterBy />
     </div>
   );
 }
