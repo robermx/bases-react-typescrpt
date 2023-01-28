@@ -14,4 +14,4 @@
 - Vite v4
 - Typescript
 - Bootstrap v5
-- GSap
+- GSap v3

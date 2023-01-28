@@ -30,7 +30,7 @@ export const CounterEffect = () => {
 
   return (
     <div className="my-5">
-      <h2 className="mb-3">CounterEffect {countDown}</h2>
+      <h2 className="mb-3">CountDownEffect {countDown}</h2>
       <h3>counterMax </h3>
       <h4 ref={countElement} className="mt-4">
         {count}
